@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:env="http://wholesale.telekom.de/ess/v4/envelope" xmlns:mes="http://wholesale.telekom.de/ess/v4/message">
+    <soapenv:Header/>
+    <soapenv:Body>
+
+        <ns8:annehmenEntstoerauftragMeldungRequest xmlns:ns8="http://wholesale.telekom.de/ess/v4/envelope" xmlns:ns3="http://wholesale.telekom.de/ess/v4/diagnose" xmlns:ns4="http://wholesale.telekom.de/ess/v4/support" xmlns:ns5="http://wholesale.telekom.de/ess/v4/assignment" xmlns:ns6="http://wholesale.telekom.de/ess/v4/action" xmlns:ns7="http://wholesale.telekom.de/ess/v4/message">
+            <Control>
+                <zeitstempel>2017-10-27T10:17:28.243+02:00</zeitstempel>
+                <majorRelease>04</majorRelease>
+                <minorRelease>00</minorRelease>
+                <signaturId>
+                    <issuer>cn=none</issuer>
+                    <serial>0</serial>
+                </signaturId>
+            </Control>
+            <ns7:EntstoerauftragMeldung xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns7:EntstoerauftragMeldungERLMType">
+                <Kunde>
+                    <Kundennummer>5920301990</Kundennummer>
+                </Kunde>
+                <Besteller>
+                    <Kundennummer>2712000196</Kundennummer>
+                </Besteller>
+                <ExterneStoerungsnummer>{externeStoerungsnummer}</ExterneStoerungsnummer>
+                <Entstoerauftragsnummer>{entstoerungsAuftragsnummer}</Entstoerauftragsnummer>
+                <Geschaeftsfall>REK</Geschaeftsfall>
+                <Vertragsnummer>284263306</Vertragsnummer>
+                <Position>
+                    <Meldungscode>0073</Meldungscode>
+                    <Meldungstext>Information zum Auftrag</Meldungstext>
+                </Position>
+            </ns7:EntstoerauftragMeldung>
+        </ns8:annehmenEntstoerauftragMeldungRequest>
+
+
+    </soapenv:Body>
+</soapenv:Envelope>

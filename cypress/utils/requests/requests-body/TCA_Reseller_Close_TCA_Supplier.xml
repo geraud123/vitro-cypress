@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ecot="http://schema.infinity3.de/ecotel/ecotel_ts_ws_v1">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <ecot:modifyRequest>
+      <ecot:creds>
+        <ecot:user>124-NetcomKassel</ecot:user>
+        <ecot:password>pekae8Ooka</ecot:password>
+      </ecot:creds>
+      <ecot:commonData>
+        <ecot:problemDescription>send CLOSE {descriptionCode}</ecot:problemDescription>
+        <ecot:ticketId>NCK124_akwe_{currentTime}</ecot:ticketId>
+      </ecot:commonData>
+      <ecot:statusChange>close</ecot:statusChange>
+    </ecot:modifyRequest>
+  </soapenv:Body>
+</soapenv:Envelope>

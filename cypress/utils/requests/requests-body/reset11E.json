@@ -1,0 +1,14 @@
+{
+  "1": {
+    "statusChange": "DISPATCH",
+    "duration": "PT10S",
+    "messageType": "ZWM",
+    "messageCode": "8240"
+  },
+  "2": {
+    "statusChange": null,
+    "duration": "PT10S",
+    "messageType": "ZWM",
+    "messageCode": "8240"
+  }
+}

@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ecot="http://schema.infinity3.de/ecotel/ecotel_ts_ws_v1">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ecot:questionCatalogRequest>
+            <!--Optional:-->
+            <ecot:versioning>
+                <ecot:majorVersion>1</ecot:majorVersion>
+                <ecot:minorVersion>0</ecot:minorVersion>
+            </ecot:versioning>
+
+            <ecot:creds>
+                <ecot:user>124-NetcomKassel</ecot:user>
+                <ecot:password>{password}</ecot:password>
+                <ecot:ticketSystemId>0</ecot:ticketSystemId>
+            </ecot:creds>
+            <!-- nicht provisioniert 713270, teilweise provisioniert 808733, ganz provisioniert(line+voice) 733541, line only 809546, keine Rufnummer bei VOIP 691617 -->
+            <ecot:productInventoryId>{productInventoryId}</ecot:productInventoryId>
+            <ecot:queryCatalogId>{queryCatalogId}</ecot:queryCatalogId>
+        </ecot:questionCatalogRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+        <!-- Fragebogen abholen
+
+        Hier im Beispiel werden alle Fragen-Kataloge abgeholt die die
+        angegebene productInventoryId betreffen.
+
+        Alternativ könnte man auch geziehlt den Fragen-Katalog mit
+        der angegebene queryCatalogId abrufen.
+        Dann könntre man sich bei Aktion auf die entsprechenen Antwort
+        mit dem Verweis auf einen Folge-Fragebogen-Katalog nextQuestionCatalogId
+        sich weiter durchhangeln.
+
+        -->

@@ -1,0 +1,29 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns8:annehmenEntstoerauftragMeldungRequest xmlns:ns3="http://wholesale.telekom.de/ess/v4/diagnose" xmlns:ns4="http://wholesale.telekom.de/ess/v4/support" xmlns:ns5="http://wholesale.telekom.de/ess/v4/message" xmlns:ns6="http://wholesale.telekom.de/ess/v4/assignment" xmlns:ns7="http://wholesale.telekom.de/ess/v4/action" xmlns:ns8="http://wholesale.telekom.de/ess/v4/envelope">
+            <Control>
+                <zeitstempel>2017-11-08T14:54:22.703+01:00</zeitstempel>
+                <majorRelease>04</majorRelease>
+                <minorRelease>00</minorRelease>
+                <signaturId>
+                    <issuer>cn=none</issuer>
+                    <serial>0</serial>
+                </signaturId>
+            </Control>
+            <ns5:EntstoerauftragMeldung xsi:type="ns5:EntstoerauftragMeldungABBMType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <Kunde>
+                    <Kundennummer>5920301990</Kundennummer>
+                </Kunde>
+                <ExterneStoerungsnummer>{externeStoerungsnummer}</ExterneStoerungsnummer>
+                <Entstoerauftragsnummer>{entstoerungsAuftragsnummer}</Entstoerauftragsnummer>
+                <Geschaeftsfall>EST</Geschaeftsfall>
+                <Vertragsnummer>284263306</Vertragsnummer>
+                <Position>
+                    <Meldungscode>1023</Meldungscode>
+                    <Meldungstext>Ihr Auftrag ist derzeit aus technischen Gründen nicht bearbeitbar. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut</Meldungstext>
+                </Position>
+            </ns5:EntstoerauftragMeldung>
+        </ns8:annehmenEntstoerauftragMeldungRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

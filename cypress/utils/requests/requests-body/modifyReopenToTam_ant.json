@@ -1,0 +1,8 @@
+{
+  "1": {
+    "statusChange": "DISPATCH",
+    "messageType": "TAM_ANT",
+    "duration": "PT10S",
+    "inProgress": "S"
+  }
+}

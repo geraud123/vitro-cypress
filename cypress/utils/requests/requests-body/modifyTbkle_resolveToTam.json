@@ -1,0 +1,9 @@
+{
+  "1": {
+    "statusChange": "DISPATCH",
+    "messageCode": "7020",
+    "messageType": "TAM",
+    "duration": "PT10S",
+    "inProgress": "R"
+  }
+}

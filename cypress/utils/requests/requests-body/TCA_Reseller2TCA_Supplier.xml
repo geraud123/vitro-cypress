@@ -1,0 +1,130 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:ecot="http://schema.infinity3.de/ecotel/ecotel_ts_ws_v1">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <ecot:createEndUserRequest>
+      <!--Optional:-->
+      <ecot:versioning>
+        <ecot:majorVersion>1</ecot:majorVersion>
+        <ecot:minorVersion>0</ecot:minorVersion>
+      </ecot:versioning>
+      <ecot:creds>
+        <ecot:user>124-NetcomKassel</ecot:user>
+        <ecot:password>pekae8Ooka</ecot:password>
+        <ecot:ticketSystemId></ecot:ticketSystemId>
+      </ecot:creds>
+      <ecot:commonData>
+        <ecot:problemDescription>TCA Reseller erstellt Leitungs-Ticket bei TCA Simulator {descriptionCode}
+        </ecot:problemDescription>
+        <ecot:ticketId>NCK124_akwe_{currentTime}</ecot:ticketId>
+
+      </ecot:commonData>
+      <ecot:shortDescription>NCK Reseller erstellt Leitungs-Ticket bei NCK Simulator</ecot:shortDescription>
+      <ecot:priority>Normal</ecot:priority>
+      <ecot:malfunction>unknown</ecot:malfunction>
+
+
+      <ecot:answers>
+        <ecot:questionCatalogId>9</ecot:questionCatalogId>
+        <ecot:question>Welche Produktkomponente oder welches Problem wollen Sie melden</ecot:question>
+        <ecot:questionId>36</ecot:questionId>
+        <ecot:answer>Leitung</ecot:answer>
+        <ecot:answerId>60</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>9</ecot:questionCatalogId>
+        <ecot:question>Hat der Service schon mal funktioniert?</ecot:question>
+        <ecot:questionId>37</ecot:questionId>
+        <ecot:answer>Erste Inbetriebnahme</ecot:answer>
+        <ecot:answerId>66</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>9</ecot:questionCatalogId>
+        <ecot:question>Welcher Dienstleister ist betroffen?</ecot:question>
+        <ecot:questionId>38</ecot:questionId>
+        <ecot:answer>Netcom Kassel GmbH - Lieferant</ecot:answer>
+        <ecot:answerId>700</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>269</ecot:questionCatalogId>
+        <ecot:question>Welche Produktkomponente oder welches Problem wollen Sie melden</ecot:question>
+        <ecot:questionId>36</ecot:questionId>
+        <ecot:answer>Netcom Kassel GmbH - Lieferant</ecot:answer>
+        <ecot:answerId>700</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>269</ecot:questionCatalogId>
+        <ecot:question>Ansprechpartner Endkunde Vorname</ecot:question>
+        <ecot:questionId>477</ecot:questionId>
+        <ecot:answer>Test Answer 1</ecot:answer>
+        <ecot:answerId>701</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>269</ecot:questionCatalogId>
+        <ecot:question>Ansprechpartner Endkunde Nachname</ecot:question>
+        <ecot:questionId>478</ecot:questionId>
+        <ecot:answer>Test Answer 2</ecot:answer>
+        <ecot:answerId>702</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>269</ecot:questionCatalogId>
+        <ecot:question>Ansprechpartner Endkunde Anrede</ecot:question>
+        <ecot:questionId>476</ecot:questionId>
+        <ecot:answer>keine Anrede</ecot:answer>
+        <ecot:answerId>705</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>269</ecot:questionCatalogId>
+        <ecot:question>Ansprechpartner Endkunde Telefonnummer</ecot:question>
+        <ecot:questionId>479</ecot:questionId>
+        <ecot:answer>Test Answer 3</ecot:answer>
+        <ecot:answerId>706</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>269</ecot:questionCatalogId>
+        <ecot:question>Ist eine Vorprüfung durchgeführt worden?</ecot:question>
+        <ecot:questionId>480</ecot:questionId>
+        <ecot:answer>Nein</ecot:answer>
+        <ecot:answerId>708</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>269</ecot:questionCatalogId>
+        <ecot:question>Expressentstörung buchen</ecot:question>
+        <ecot:questionId>481</ecot:questionId>
+        <ecot:answer>Ja</ecot:answer>
+        <ecot:answerId>710</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>269</ecot:questionCatalogId>
+        <ecot:question>Online-User-Wunschtermin?</ecot:question>
+        <ecot:questionId>483</ecot:questionId>
+        <ecot:answer>Test Answer 4</ecot:answer>
+        <ecot:answerId>711</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>269</ecot:questionCatalogId>
+        <ecot:question>Wählen Sie das Zeitfenster</ecot:question>
+        <ecot:questionId>482</ecot:questionId>
+        <ecot:answer>Werktags 14:00 - 20:00 [XDSL2]</ecot:answer>
+        <ecot:answerId>717</ecot:answerId>
+      </ecot:answers>
+      <ecot:answers>
+        <ecot:questionCatalogId>269</ecot:questionCatalogId>
+        <ecot:question>Ansprechpartner Endkunde Kontaktaufnahme erlaubt</ecot:question>
+        <ecot:questionId>484</ecot:questionId>
+        <ecot:answer>Ja</ecot:answer>
+        <ecot:answerId>720</ecot:answerId>
+      </ecot:answers>
+
+
+      <ecot:resellerCustomerNumber>2019_07_NCK_K16</ecot:resellerCustomerNumber>
+
+
+      <ecot:capInventoryId>733517</ecot:capInventoryId>
+
+      <!-- falls Leitung defekt line -->
+      <ecot:ticketType>line</ecot:ticketType>
+
+    </ecot:createEndUserRequest>
+  </soapenv:Body>
+</soapenv:Envelope>

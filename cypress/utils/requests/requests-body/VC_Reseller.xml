@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ecot="http://schema.infinity3.de/ecotel/ecotel_ts_ws_v1">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ecot:customerProductRequest>
+            <ecot:creds>
+                <ecot:user>9-vitroconnect</ecot:user>
+                <ecot:password>vc9tester</ecot:password>
+                <ecot:ticketSystemId></ecot:ticketSystemId>
+            </ecot:creds>
+
+            <ecot:capCustomerNumber>{capCustomerNumber}</ecot:capCustomerNumber>
+        </ecot:customerProductRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

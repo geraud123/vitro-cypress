@@ -1,0 +1,8 @@
+{
+  "1": {
+    "statusChange": "resolve",
+    "duration": "PT10S",
+    "messageType": "ERLM",
+    "messageCode": "7000"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "1": {
+    "duration": "PT10S",
+    "messageType": "TBKLE",
+    "messageCode": "7020"
+  },
+  "2": {
+    "statusChange": "RESOLVE",
+    "duration": "PT10S",
+    "messageType": "ERLM",
+    "messageCode": "7000"
+  }
+}
